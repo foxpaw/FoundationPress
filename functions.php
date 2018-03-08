@@ -53,3 +53,7 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+
+@ini_set( 'upload_max_size' , '10M' );
+@ini_set( 'post_max_size', '10M');
+@ini_set( 'max_execution_time', '300' );
